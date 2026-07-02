@@ -1,0 +1,9 @@
+resources:
+  - ../../base
+namePrefix: prod-
+labels:
+  - pairs:
+      environment: prod
+patches:
+  - path: patch-flask-env.yaml
+  - path: patch-flask-service.yaml

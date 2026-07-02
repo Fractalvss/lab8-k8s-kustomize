@@ -1,0 +1,8 @@
+resources:
+  - ../../base
+namePrefix: dev-
+labels:
+  - pairs:
+      environment: dev
+patches:
+  - path: patch-flask-env.yaml
